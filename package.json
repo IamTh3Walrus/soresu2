@@ -1,0 +1,30 @@
+{
+  "name": "soresu2",
+  "version": "1.0.0",
+  "description": "Star Wars Lightsaber Forms",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node app"
+  },
+  "dependencies": {
+  "express": "*",
+  "mongoose": "*",
+  "bcryptjs": "*",
+  "cors": "*",
+  "jsonwebtoken": "*",
+  "body-parser": "*",
+  "passport": "*",
+  "passport-jwt": "*"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTh3Walrus/soresu2.git"
+  },
+  "author": "Stephen Doe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamTh3Walrus/soresu2/issues"
+  },
+  "homepage": "https://github.com/IamTh3Walrus/soresu2#readme"
+}
