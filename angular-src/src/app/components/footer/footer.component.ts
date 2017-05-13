@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  private LinkedinImage = require("./assets/linkedin.png");
+  private GithubImage = require("./assets/octocat.jpg");
 
   constructor() { }
 
