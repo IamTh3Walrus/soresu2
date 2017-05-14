@@ -4,12 +4,13 @@
     "name": "angular-src"
   },
   "apps": [
-    {
-      "root": "src",
-      "outDir": "../public",
-      "assets": [
-        "assets"
-      ],
+   {
+     "root": "src",
+     "outDir": "dist",
+     "assets": [
+       "assets",
+       "favicon.ico"
+     ],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
